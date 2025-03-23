@@ -1,24 +1,75 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IBM Student Resources</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0056b3;
+        }
+        .resource-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .resource-box a, .resource-box button {
+            width: 80%;
+        }
+        .resource-box a {
+            text-decoration: none;
+        }
+        .resource-box button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 300px;
+        }
+        .resource-box button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>Assignments of Mahliyo </h1>
+        <h1>Assignments of Mahliyo</h1>
         
         <div class="resource-box">
-            <button>New Product Example: Assignment 1</button>
-            <!-- Corrected the link part here -->
             <a href="./flowchart-builder.html">
-                <button>Flowchart Builder</button>
+                <button>Flowchart Builder: Assignment 1</button>
             </a>
-            <button>Assignment 3</button>
-            <button>Assignment 4</button>
+            <a href="https://docs.google.com/document/d/1ZuqRaRofa02IDyO4EgWAcx2afscA2qpgArfOLsLO7II/edit?tab=t.0">
+                <button>Flowchart Challenges: Assignment 2</button>
+            </a>
+            <a href="#">
+                <button>Assignment 3</button>
+            </a>
+            <a href="#">
+                <button>Assignment 4</button>
+            </a>
         </div>
-    
     </div>
 </body>
 </html>
